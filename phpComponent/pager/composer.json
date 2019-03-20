@@ -1,0 +1,22 @@
+{
+	"name":"borisenko/pager",
+	"description":"Library to split result into multiple pages",
+	"keywords":["pager","paginator","pagination"],
+	"homepage":"https://somename.com",
+	"license":"MIT",
+	"authors":{
+			"name":"Denis Borisenko",
+			"email":"denisborisenko98@mail.ru"
+	},
+	"support":{
+		"email":"denisborisenko98@mail.ru"
+	},
+	"require":{
+		"php":">=7.0.0"
+	},
+	"autoload":{
+		"psr-4":{
+			"DBPager\\":"src/"
+		}
+	}
+}
